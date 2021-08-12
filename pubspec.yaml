@@ -1,0 +1,51 @@
+name: flowers0
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^1.0.1
+  firebase_storage: ^8.0.1 
+  firebase_database: ^6.0.0
+  cloud_firestore: ^1.0.3
+  provider: ^4.3.3
+  fluttertoast: ^7.1.8
+  firebase_core: ^1.0.2
+  scrollable_list_tabview: ^0.1.6
+  flutter_cart: ^0.0.6
+  modal_bottom_sheet: ^2.0.0
+  loading_animations: ^2.2.0
+  cupertino_icons: ^1.0.0
+  progressive_image: ^1.0.1
+  firebase_image: ^1.0.1
+  loading_indicator: ^2.0.1
+  shared_preferences: ^2.0.5
+  bubble_tab_indicator: "^0.1.5"
+  get: ^4.1.4
+  uuid: ^3.0.4
+  rounded_loading_button: ^2.0.3
+  visibility_detector: ^0.2.0
+  flutter_swiper: ^1.1.6
+  top_snackbar_flutter: ^1.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - lib/assets/
+ 
+
